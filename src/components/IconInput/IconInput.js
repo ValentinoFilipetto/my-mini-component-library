@@ -22,24 +22,24 @@ const IconInput = ({ label, icon, width = 250, size, placeholder }) => {
 const SmallSearch = styled.div`
   position: relative;
   width: var(--width);
-  font-size: 1rem;
   border-bottom: 1px solid #000000;
   color: ${COLORS.gray500};
+  padding-bottom: 2px;
 `;
 
 const LargeSearch = styled.div`
   position: relative;
   width: var(--width);
-  font-size: var(--size);
   border-bottom: 2px solid #000000;
   color: ${COLORS.gray700};
+  padding-bottom: 2px;
 `;
 
 const Label = styled.label`
   position: absolute;
   top: 0;
   left: 33px;
-  top: 4px;
+  top: 5px;
 `;
 
 export default IconInput;
